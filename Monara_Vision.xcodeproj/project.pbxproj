@@ -13,6 +13,7 @@
 		11BDF28A2BE91A5E00682173 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BDF2892BE91A5E00682173 /* ImmersiveView.swift */; };
 		11BDF28C2BE91A5F00682173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BDF28B2BE91A5F00682173 /* Assets.xcassets */; };
 		11BDF28F2BE91A5F00682173 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11BDF28E2BE91A5F00682173 /* Preview Assets.xcassets */; };
+		11BDF2972BE9261800682173 /* JungleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BDF2962BE9261800682173 /* JungleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		11BDF28B2BE91A5F00682173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11BDF28E2BE91A5F00682173 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11BDF2902BE91A5F00682173 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11BDF2962BE9261800682173 /* JungleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JungleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,8 @@
 		11BDF2802BE91A5E00682173 /* Monara_Vision */ = {
 			isa = PBXGroup;
 			children = (
+				11BDF2982BE9262300682173 /* View */,
 				11BDF2852BE91A5E00682173 /* Monara_VisionApp.swift */,
-				11BDF2872BE91A5E00682173 /* ContentView.swift */,
-				11BDF2892BE91A5E00682173 /* ImmersiveView.swift */,
 				11BDF28B2BE91A5F00682173 /* Assets.xcassets */,
 				11BDF2902BE91A5F00682173 /* Info.plist */,
 				11BDF28D2BE91A5F00682173 /* Preview Content */,
@@ -82,6 +83,16 @@
 				11BDF28E2BE91A5F00682173 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11BDF2982BE9262300682173 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11BDF2872BE91A5E00682173 /* ContentView.swift */,
+				11BDF2892BE91A5E00682173 /* ImmersiveView.swift */,
+				11BDF2962BE9261800682173 /* JungleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 				11BDF2882BE91A5E00682173 /* ContentView.swift in Sources */,
 				11BDF2862BE91A5E00682173 /* Monara_VisionApp.swift in Sources */,
 				11BDF28A2BE91A5E00682173 /* ImmersiveView.swift in Sources */,
+				11BDF2972BE9261800682173 /* JungleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

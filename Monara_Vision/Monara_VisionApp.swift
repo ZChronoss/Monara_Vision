@@ -14,8 +14,12 @@ struct Monara_VisionApp: App {
             ContentView()
         }
 
-        ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
+//        ImmersiveSpace(id: "ImmersiveSpace") {
+//            ImmersiveView()
+//        }
+        
+        ImmersiveSpace(id: "Jungle") {
+            JungleView()
         }
     }
 }
